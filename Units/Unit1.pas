@@ -107,7 +107,6 @@ procedure TForm1.SaveBtnClick(Sender: TObject);
 begin
   showmessage('saved to History.txt');
    Preview.Lines.SaveToFile('History.txt',TEncoding.UTF8);
-  // Clear.Visible := True;
 end;
 
 procedure TForm1.ExitBtnClick(Sender: TObject);
