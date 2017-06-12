@@ -57,8 +57,8 @@ type
     Etapa1: String;
 
   const
-    encabezado1 = '=============*{ History }*=============';
-    encabezado2 = '===================================';
+    encabezado1 = '============*{ History }*============';
+    encabezado2 = '=================================';
     espacio = ' ';
     opc01 = 'Leyenda:';
     opc02 = '[+] Agregado / Nuevo';
