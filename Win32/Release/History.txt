@@ -1,0 +1,20 @@
+=============*{ History }*=============
+Programa : History by Apuromafo 
+Web : https://github.com/apuromafo/History-by-Apuromafo 
+===================================
+Leyenda:
+[+] Agregado / Nuevo
+[-] Removido
+[*] Cambiado
+[%] Arreglado(bugs)
+[^] Actualizacionesy / o Información 
+
+===================================
+Version 1.0 2017-06-12
+===================================
+[+] Generador de Encabezado
+[+] Generador de Version
+[+] Generador de Descripción
+[*] Posicion de Botones
+[%] Opciones de Guardado
+[^]  Programa que permite generar un Historial/changelog de Algun Programa
