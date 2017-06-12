@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 274
   BorderIcons = []
   BorderStyle = bsSingle
-  Caption = 'History v1.0 By Apuromafo'
+  Caption = 'History v1.1 By Apuromafo'
   ClientHeight = 455
   ClientWidth = 772
   Color = clBtnFace
