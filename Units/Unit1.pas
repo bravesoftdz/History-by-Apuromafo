@@ -85,7 +85,7 @@ type
     opc03 = '[-] Removido';
     opc04 = '[*] Cambiado';
     opc05 = '[%] Arreglado(bugs)';
-    opc06 = '[^] Actualizacionesy / o Información ';
+    opc06 = '[^] Actualizaciones y / o Información ';
     opc07 = 'Nombre';
     opc08 = 'http://www.';
     opc09 = '1.0';

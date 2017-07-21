@@ -1,6 +1,6 @@
 ﻿============*{ History }*============
-Programa : History by Apuromafo 
-Web : https://github.com/apuromafo/History-by-Apuromafo 
+Programa : Card recovery by Apuromafo 
+Web : http://www.google.cl 
 =================================
 Leyenda:
 [+] Agregado / Nuevo
@@ -9,25 +9,14 @@ Leyenda:
 [%] Arreglado(bugs)
 [^] Actualizacionesy / o Información 
 =================================
-Version 1.2 2017-06-13
+Version 2.0 2017-06-12
 =================================
-[*] Posición Botones
-[+] Elección de Versión para cada Descripción
-[+] Mostrar version de Mayor a Menor(downto)
-[^]  Programa que permite generar un Historial/changelog de Algun Programa mostrando de Mayor version a Menor version solo seguir los pasos 1, (2 y 3 como sea necesario) y luego 4, luego 5 y eso es todo :)
- 
-=================================
-Version 1.1 2017-06-12
-=================================
-[+] TEncoding.UTF8
-[^] Programa que permite generar un Historial/changelog de Algun Programa
+[%] el boton
  
 =================================
 Version 1.0 2017-06-12
 =================================
-[+] Generador de Encabezado
-[+] Generador de Version
-[+] Generador de Descripción
-[*] Posicion de Botones
-[%] Opciones de Guardado
+[%] se arreglaron los bugs
+[%] aqui va la descripción
+[%] el boton
  
