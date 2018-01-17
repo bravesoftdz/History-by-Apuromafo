@@ -1,22 +1,32 @@
 ﻿============*{ History }*============
-Programa : Card recovery by Apuromafo 
-Web : http://www.google.cl 
+Programa : TEU IDA CLS 
+Web : https://github.com/apuromafo/TEUCLS 
 =================================
 Leyenda:
 [+] Agregado / Nuevo
 [-] Removido
 [*] Cambiado
 [%] Arreglado(bugs)
-[^] Actualizacionesy / o Información 
+[^] Actualizaciones y / o Información 
 =================================
-Version 2.0 2017-06-12
+Version 1.3 2017-12-27
 =================================
-[%] el boton
+[*] mejorado la rutina 
+[%] verificacion 2.5 para ruta carpeta
  
 =================================
-Version 1.0 2017-06-12
+Version 1.2 2017-12-27
 =================================
-[%] se arreglaron los bugs
-[%] aqui va la descripción
-[%] el boton
+[*] mejorado la rutina 
+ 
+=================================
+Version 1.1 2017-12-27
+=================================
+[*] mejorado la rutina 
+ 
+=================================
+Version 1.0 2017-12-25
+=================================
+[^] Versión Inicial
+[+] 3 rutinas para descarga del archivo mediante condicionales
  
