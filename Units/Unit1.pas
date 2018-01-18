@@ -14,7 +14,7 @@ uses
   System.Classes, Vcl.Graphics,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls,
   Vcl.ComCtrls, JvExStdCtrls, JvListBox, JvComboListBox, Vcl.CheckLst,
-  System.Generics.Collections;
+  System.Generics.Collections, Vcl.Imaging.pngimage;
 
 // 3.    Uses. En esta se especifican los distintos módulos que cargará el programa
 // y que se incluirán en el ejecutable una vez compilado para que éste tenga una
@@ -55,6 +55,8 @@ type
     Label1: TLabel;
     Mostrar: TButton;
     Label2: TLabel;
+    Image1: TImage;
+    Image2: TImage;
     procedure GenerarBtnClick(Sender: TObject);
     procedure VersionBtnClick(Sender: TObject);
     procedure DescripcionBtnClick(Sender: TObject);
@@ -93,6 +95,22 @@ type
     salto = #13#10;
   end;
 
+resourcestring
+  str0 = 'YYYY-MM-DD'; // formato fecha
+  str1 = 'favor tildar alguna Versión'; // si no agregan opciones
+  str2 = 'saved to History.txt';
+  str3 = 'History.txt';
+  str4 = 'Version ';
+  str5 = '';
+  str6 = '';
+  str7 = '';
+  str8 = '';
+  str9 = '';
+  str10 = '';
+  str11 = '';
+  str12 = '';
+  str13 = '';
+
 var
   Form1: TForm1;
 
@@ -110,7 +128,7 @@ var
 begin
   // Preview.Lines.Add(salto + encabezado2);
   hola := VERSION_Edt.Text + espacio;
-  hola := hola + FormatDateTime('YYYY-MM-DD', Fecha.Date);
+  hola := hola + FormatDateTime(str0, Fecha.Date);
   // Preview.Lines.Add(VERSION_Label.Caption + espacio + hola);
   // Preview.Lines.Add(encabezado2);
   VERSION_Edt.Text := opc09;
@@ -151,7 +169,7 @@ begin
   end
   else
   begin
-    showmessage('favor tildar alguna Versión');
+    showmessage(str1);
   end;
 
   // hola := (Copy((Leyenda.Items[Leyenda.ItemIndex]), 1, 4) +
@@ -162,8 +180,8 @@ end;
 
 procedure TForm1.SaveBtnClick(Sender: TObject);
 begin
-  showmessage('saved to History.txt');
-  Preview.Lines.SaveToFile('History.txt', TEncoding.UTF8);
+  showmessage(str2);
+  Preview.Lines.SaveToFile(str3, TEncoding.UTF8);
 end;
 
 procedure TForm1.ExitBtnClick(Sender: TObject);
@@ -220,7 +238,7 @@ begin
   begin
     key := CheckListBox1.Items[i];
     Preview.Lines.Add(encabezado2);
-    Preview.Lines.Add('Version ' + key);
+    Preview.Lines.Add(str4 + key);
     Preview.Lines.Add(encabezado2);
     for j := 0 to dic.Items[key].Count - 1 do
     begin
